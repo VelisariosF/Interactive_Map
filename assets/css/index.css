@@ -1,0 +1,53 @@
+html, body {
+  background-color: #80807f;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  position: relative;
+  top: 5%;
+  left: 33%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: white;
+}
+
+.map {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 10%;
+  left: 0%;
+  bottom: 15%;
+  /* configure the size of the map */
+  width: 70%;
+  height: 70%;
+}
+
+ul {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow-y: scroll;
+  height: 70%;
+  position: absolute;
+  top: 20%;
+  width: 20%;
+  right: 3%;
+  list-style: none;
+}
+
+ul .list-element {
+  color: white;
+  cursor: pointer;
+}
+
+ul .list-element:hover {
+  color: aqua;
+}
+/*# sourceMappingURL=index.css.map */
