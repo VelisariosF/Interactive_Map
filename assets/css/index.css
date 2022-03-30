@@ -18,25 +18,66 @@ html, body {
   color: white;
 }
 
+.clear-map-button {
+  position: absolute;
+  top: 18%;
+  left: 3%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.pop-up-message {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: white;
+}
+
 .map {
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
   position: relative;
   top: 10%;
-  left: 0%;
+  left: 3%;
   bottom: 15%;
   /* configure the size of the map */
   width: 70%;
   height: 70%;
 }
 
+.countries-list-title {
+  position: absolute;
+  top: 24%;
+  text-decoration: underline;
+  right: 12.1%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: white;
+}
+
 ul {
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
   overflow-y: scroll;
-  height: 70%;
+  height: 60%;
   position: absolute;
-  top: 20%;
+  top: 30%;
   width: 20%;
   right: 3%;
   list-style: none;
@@ -45,6 +86,7 @@ ul {
 ul .list-element {
   color: white;
   cursor: pointer;
+  -webkit-transition: color 0.2s ease-out;
 }
 
 ul .list-element:hover {

@@ -11,9 +11,12 @@
   </head>
   <body>
      
-        <h1 class="title">Welcome to my interactive map!</h1>
+        <h1 id="title" class="title">Welcome to my interactive map!</h1>
+        <p id="pop-up-message" class="pop-up-message"></p>
         <div id="map" class="map"></div>
-    
+         <button class="clear-map-button" onclick="clearMap()">Clear Map</button>
+         
+        <h2 class="countries-list-title">Choose a country:</h2>
         <ul id="countries-list" class="countries-list">
         <!--   <li id="fr"class="list-element">
                 <p>FRANCE</p>
@@ -25,7 +28,7 @@
                 <p>GREECE</p>
             </li>-->
         </ul>
-     
+      
    
     <script src="/assets/js/index.js"></script>
     <script src="https://github.com/calvinmetcalf/leaflet-ajax/blob/gh-pages/dist/leaflet.ajax.min.js"></script>
